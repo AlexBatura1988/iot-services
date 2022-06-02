@@ -50,9 +50,10 @@ public abstract class Hardware {
 	}
 
 	@Override
-	public String toString() {
-		return "Hardware [ID=" + ID + ", type=" + type + ", model=" + model + ", manufacturer=" + manufacturer + "]";
-	}
+		public String toString() {
+			return getClass().getSimpleName() + " [ID=" + ID + ", type=" + type + ", model=" + model + ", manufacturer=" + manufacturer + "]";
+		}
+	
 	
 	
 
