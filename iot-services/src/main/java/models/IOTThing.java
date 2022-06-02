@@ -9,8 +9,11 @@ public class IOTThing extends Hardware {
 
 	private List<Device> devices;
 
-	public IOTThing() {
+	
 
+	public IOTThing() {
+		super(Type.CONTROLLER, "Model", Manufacturer.values()[new Random().nextInt(5)].toString());
+		devices = new ArrayList<Device>();
 	};
 
 	public IOTThing(Type type, String model, String manufacturer) {
