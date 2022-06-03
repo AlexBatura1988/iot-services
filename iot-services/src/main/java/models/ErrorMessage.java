@@ -19,9 +19,5 @@ public class ErrorMessage {
 	public Status getStatus() {
 		return status;
 	}
-	
-	
-    
-    
 
 }

@@ -54,7 +54,5 @@ public abstract class Hardware {
 			return getClass().getSimpleName() + " [ID=" + ID + ", type=" + type + ", model=" + model + ", manufacturer=" + manufacturer + "]";
 		}
 	
-	
-	
 
 }
