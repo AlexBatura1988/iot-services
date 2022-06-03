@@ -9,8 +9,8 @@ public class MissingDataException extends RuntimeException {
 	private String nameId;
 	
 
-	public MissingDataException(String message) {
-		super(msg);
+	public MissingDataException(String msg) {
+		this.msg = msg;
 	}
 	
 	public MissingDataException(String objType , String nameId) {
